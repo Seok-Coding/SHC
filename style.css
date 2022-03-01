@@ -1,0 +1,364 @@
+.nav-link{
+  color:black;
+}
+
+.nav-link:visited{
+  color:black;
+}
+
+
+
+.nav-title{
+  display:block;
+  color:black;
+  text-decoration:none;
+}
+
+
+
+
+@font-face {
+    src: url("./TTF/SSS.ttf");
+    font-family: "Afont";
+    
+}
+@font-face {
+    src: url("./TTF/KP.ttf");
+    font-family: "Bfont";
+    
+}
+
+.kf{
+    font-family: 'Open Sans','Lato',arial,"맑은 고딕",'Malgun Gothic',나눔고딕,'Nanum Gothic',"돋움",Dutum,san-serif;
+    
+}
+
+.qpp:hover{
+  color:black;
+}
+
+.qpp{
+  padding-top:70px;
+  padding-bottom:50px;
+  font-size:40px;
+  font-weight:700;
+}
+
+
+.categorys{
+  padding-bottom:20px;
+  color:black;
+  font-family: 'Open Sans','Lato',arial,"맑은 고딕",'Malgun Gothic',나눔고딕,'Nanum Gothic',"돋움",Dutum,san-serif;;}
+
+.categorys:visited{
+  color:black;
+}
+
+.nav-item{
+  padding-top:10px;
+  font-family: 'Open Sans','Lato',arial,"맑은 고딕",'Malgun Gothic',나눔고딕,'Nanum Gothic',"돋움",Dutum,san-serif;;
+  font-weight:700;
+  color:black;
+}
+
+.nav-item2{
+  color:black;
+  font-size:13px;
+    font-family: 'Open Sans','Lato',arial,"맑은 고딕",'Malgun Gothic',나눔고딕,'Nanum Gothic',"돋움",Dutum,san-serif;;
+  font-weight:500;
+  
+}
+
+.nav-link:hover{
+  color:gray;
+  cursor:pointer;
+}
+
+.nav-item2:hover{
+  color:gray;
+  cursor:pointer;
+}
+
+
+
+
+
+.odd{
+  position:sticky;
+    width: 100%;
+  
+  right:0;
+    left: 0;
+    top: -1px;
+    background: #fff;
+  z-index: 9999;
+    
+  -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.05);
+  
+}
+
+
+
+
+
+.card{
+  border: none;}
+
+.wkreorl{
+  text-decoration:line-through;
+  font-size:12px;
+  font-family: 'Lato','Nanum Gothic';
+}
+
+
+.rkrur{
+  font-size:12px;
+  font-family: 'Lato','Nanum Gothic';
+}
+
+.name{
+  font-size:12px;
+  font-family: 'Lato','Nanum Gothic';
+}
+
+.ee{
+  padding-bottom:60px;
+}
+
+
+.container img{
+  width:100%;
+}
+
+.tt{
+  padding-top:50px;
+  padding-bottom:180px;
+}
+
+.card:hover{
+  transform:scale(1.05);
+  transition:0.5s;
+  cursor:pointer;
+}
+
+
+.uss{
+  padding-bottom:60px;
+}
+
+
+
+
+
+
+
+
+
+.pp{
+
+  
+}
+.container{
+  
+}
+.nav{
+  padding-left:10px;
+  padding-right:10px;
+  
+}
+
+.row{
+  
+}
+
+.pqq{
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:30px;
+}
+
+
+.HOT{
+  
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+
+.TOH{
+  color:#666;
+  border:1px solid #666;
+  padding-bottom:15px;
+  padding-top:15px;
+  padding-left:70px;
+  padding-right:70px;
+  font-size:13px;
+  font-family: 'Lato','Nanum Gothic';
+}
+
+
+.zzz{
+  padding-bottom:50px; 
+}
+
+.icon:hover{
+  background-color: red;
+}
+
+
+
+.footer-menu{
+  display:flex;
+  justify-content: space-between;
+}
+.first-box{
+      width: 120%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.column{
+  display: flex;
+  flex-direction:column;
+  padding:0 15px;
+}
+
+.sub-title{
+  color: black;
+    font-weight: 900;
+      margin: 20px 0px;
+}
+
+.footer-menu-item{
+  text-decoration:none;
+  color:black;
+  padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 15px;
+}
+
+.footer-menu-item:hover{
+  color:#666;
+  
+}
+
+
+
+
+.anRdj{
+  display:flex;
+  justify-content: space-betwwen;
+}
+
+.anRwlak{
+  display:flex;
+  justify-content: space-between;
+}
+
+.SHMALL{
+  font-size:1.5em;
+}
+
+.paragraph{
+  padding-top:10px;
+  font-size:0.8em;
+}
+
+.ttt{
+  font-size:1.5em;
+  padding-left:-10px;
+}
+
+
+
+
+@media screen and (max-width:48rem){
+  .footer-menu{
+    display:none;}
+  .second-box{
+    display:none;
+    }
+  .third-box{
+    display:none;
+  }
+  
+}
+
+.second-box{
+  
+  display:flex;
+  justify-content:right;
+  
+}
+
+.icon-box:hover{
+  cursor:pointer;
+  transform:scale(1.2);
+  transition:0.3s;
+}
+
+
+
+
+
+.icon-box{
+  position:relative;
+  bottom:30px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+
+@media screen and (min-width: 450px) {
+  
+    .container-secret{
+      display:none;
+    .sub-title{}
+          
+          }
+}
+
+.container-secret{
+  border-color: red;
+  padding-bottom:15px;
+}
+
+.email{
+  color:black;
+}
+.email:hover{
+  color: #a5a5a5;
+}
+
+
+.third-box3{
+  padding-left:15px;
+  padding-top:30px;
+  font-size:12px;
+  padding-bottom:130px;
+}
+
+.third-box{
+  padding-left:15px;
+  padding-top:30px;
+  font-size:12px;
+  padding-bottom:130px;
+}
+
+body{
+  margin:0px;
+}
+
+
+@media screen and (min-width: 450px) {
+  
+    .first-box-secret{
+      display:none;
+    .
+}}
+
+
+.card-body{
+  line-height:150%;
+}
